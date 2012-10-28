@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+
+    <title>
+    	{% block head_title %}
+            IBM-Facts
+    	{% endblock %}
+    </title>
+
+    <!--<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/reset.css">
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/style.css">-->
+
+    <!---<script type="text/javascript" src="{{STATIC_URL}}js/jquery-1.7.2.min.js"></script>-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+</head>
+<body>
+
+    <div id="container">
+
+        {% block content %}
+
+        {% endblock %}
+    	
+    </div>
+
+</body>
+</html>
