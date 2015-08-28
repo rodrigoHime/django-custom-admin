@@ -1,2 +1,2 @@
-custom-admin
+django-custom-admin
 ============
